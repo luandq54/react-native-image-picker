@@ -70,6 +70,21 @@
     "type": "git",
     "url": "https://github.com/luandq54/react-native-image-picker.git"
   },
+  
+  "@react-native-community/bob": {
+    "source": "src",
+    "output": "lib",
+    "targets": [
+      [
+        "commonjs",
+        {
+          "flow": true
+        }
+      ],
+      "module",
+      "typescript"
+    ]
+  },
 
   "husky": {
     "hooks": {
