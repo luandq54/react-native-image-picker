@@ -1,5 +1,5 @@
 {
-  "name": "react-native-image-picker",
+  "name": "rn-image-selector",
   "version": "2.3.1",
   "description": "A React Native module that allows you to use native UI to select media from the device library or directly from the camera",
   "react-native": "src/index.ts",
@@ -14,26 +14,9 @@
     "/lib",
     "/*.podspec"
   ],
-  "author": "Marc Shilling (marcshilling)",
-  "contributors": [
-    {
-      "name": "Johan du Toit",
-      "email": "jdutoit.dev@gmail.com"
-    },
-    {
-      "name": "Matheus Santos",
-      "email": "vorj.dux@gmail.com"
-    },
-    {
-      "name": "Yoann Fuks",
-      "email": "yfuks@student.42.fr"
-    },
-    {
-      "name": "Alexander Ustinov",
-      "email": "rusfearuth@gmail.com"
-    }
-  ],
-  "homepage": "https://github.com/react-community/react-native-image-picker#readme",
+  "author": "Nerd JSC",
+ 
+  "homepage": "https://github.com/luandq54/react-native-image-picker#readme",
   "license": "MIT",
   "scripts": {
     "start": "react-native start",
@@ -47,7 +30,7 @@
   },
   "keywords": [
     "react-native",
-    "react-native-image-picker",
+    "rn-image-selecto",
     "react",
     "native",
     "image",
@@ -85,22 +68,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/react-native-community/react-native-image-picker.git"
+    "url": "https://github.com/luandq54/react-native-image-picker.git"
   },
-  "@react-native-community/bob": {
-    "source": "src",
-    "output": "lib",
-    "targets": [
-      [
-        "commonjs",
-        {
-          "flow": true
-        }
-      ],
-      "module",
-      "typescript"
-    ]
-  },
+
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
